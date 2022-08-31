@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ModerN/static/css/main.3d72a7fe.css",
-    "main.js": "/ModerN/static/js/main.77921bca.js",
+    "main.css": "/ModerN/static/css/main.d39bcf56.css",
+    "main.js": "/ModerN/static/js/main.055b4dfb.js",
     "static/media/gallery11.webp": "/ModerN/static/media/gallery11.3825c6a3da8605685b5c.webp",
     "static/media/gallery2.webp": "/ModerN/static/media/gallery2.716782c7b08ec7723c0d.webp",
     "static/media/parallax.webp": "/ModerN/static/media/parallax.fae34dc88c472a009ce1.webp",
@@ -20,11 +20,11 @@
     "static/media/gallery5.webp": "/ModerN/static/media/gallery5.149e2c9870a8fc73b4e0.webp",
     "static/media/plan1_black.jpg": "/ModerN/static/media/plan1_black.9c03414256957fe899ac.jpg",
     "index.html": "/ModerN/index.html",
-    "main.3d72a7fe.css.map": "/ModerN/static/css/main.3d72a7fe.css.map",
-    "main.77921bca.js.map": "/ModerN/static/js/main.77921bca.js.map"
+    "main.d39bcf56.css.map": "/ModerN/static/css/main.d39bcf56.css.map",
+    "main.055b4dfb.js.map": "/ModerN/static/js/main.055b4dfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d72a7fe.css",
-    "static/js/main.77921bca.js"
+    "static/css/main.d39bcf56.css",
+    "static/js/main.055b4dfb.js"
   ]
 }
