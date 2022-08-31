@@ -1,5 +1,5 @@
 import React , {useState} from 'react'
-import {NavLink , Link} from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import {FaBars , FaTimes} from 'react-icons/fa'
 import Logo from '../images/logo.png'
 import './navbarStyles.css'
@@ -12,15 +12,15 @@ function Navbar() {
   return (
    <header>
     <nav className="navbar">
-        <div className="brand__logo">
-            <Link to="/" activeclassname="none"><img src={Logo} alt="logo" className="logo"/></Link>
+    <Link to="/ModerN" activeclassname="none"><div className="brand__logo">
+            <img src={Logo} alt="logo" className="logo"/>
             <span>ModerN</span>
-        </div>
+        </div></Link>
         <ul className={click?"nav__menu open" : "nav__menu"}>
-            <li className="nav__item"><NavLink  className="nav__link" to="/Projects">Projects</NavLink></li>
-            <li className="nav__item"><NavLink  className="nav__link" to="/About">About</NavLink></li>
-            <li className="nav__item"><NavLink  className="nav__link" to="/About">Services</NavLink></li>
-            <li className="nav__item"><NavLink  className="nav__link " to="/Contact">Contact</NavLink></li>
+            <li className="nav__item"><Link  className="nav__link" to="/Projects">Projects</Link></li>
+            <li className="nav__item"><Link  className="nav__link" to="/About">About</Link></li>
+            <li className="nav__item"><Link  className="nav__link" to="/About">Services</Link></li>
+            <li className="nav__item"><Link  className="nav__link " to="/Contact">Contact</Link></li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
             {click ? <FaTimes/> : <FaBars/>}

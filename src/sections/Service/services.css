@@ -32,7 +32,7 @@
 
 }
 .card__services:nth-child(1) .card__top__services{
-    background-image: url("../images/plan1_black.jpg");
+    background-image: url("../../images/plan1_black.jpg");
     width:100%;
     height:25vh;
     background-size:cover;
@@ -41,7 +41,7 @@
 
 }
 .card__services:nth-child(2) .card__top__services{
-    background-image: url("../images/plan2_black.jpg");
+    background-image: url("../../images/plan2_black.jpg");
     width:100%;
     height:25vh;
     background-size:cover;
@@ -50,7 +50,7 @@
 
 }
 .card__services:nth-child(3) .card__top__services{
-    background-image: url("../images/plan3_black.jpg");
+    background-image: url("../../images/plan3_black.jpg");
     width:100%;
     height:25vh;
     background-size:cover;

@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div>
     <Navbar/>
-    <h1>HAHAHAHA</h1>
+    <h1>:)</h1>
     </div>
   )
 }

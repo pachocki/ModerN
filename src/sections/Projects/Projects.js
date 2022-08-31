@@ -1,10 +1,13 @@
 import React from 'react';
-import './projects.css'
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation,Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Pagination, Navigation,Autoplay } from "swiper";
+import './projects.css'
+
+
+
 
 
 
@@ -24,7 +27,7 @@ function ProjectLanding() {
       <div className="projects__col__right">
       <Swiper
         autoplay={{
-        delay: 5500,
+        delay: 8500,
         disableOnInteraction: false,
         }}
         slidesPerView={1}

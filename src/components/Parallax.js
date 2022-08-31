@@ -1,7 +1,7 @@
 import React from 'react'
 import './parallax.css'
 
-function parralax() {
+function Parralax() {
   return (
     <div className="parallax__container" data-scroll data-scroll-direction="vertical" data-scroll-speed="2" data-scroll-class="appear" data-scroll-repeat="true">
     <div className="parallax">
@@ -14,4 +14,4 @@ function parralax() {
   )
 }
 
-export default parralax
+export default Parralax

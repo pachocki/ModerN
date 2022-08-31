@@ -2,7 +2,7 @@
 import './App.css';
 import './locomotive-scroll.css';
 import { Route , Routes} from 'react-router-dom';
-import './locomotive-scroll.css';
+import 'locomotive-scroll/dist/locomotive-scroll.css'
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 import {useRef} from 'react';
 import Home from "./Home";
@@ -39,10 +39,10 @@ function App() {
           containerRef={containerRef}
         >
    <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/Projects" element={<Projects/>}/>
-      <Route path="/About" element={<About/>}/>
-      <Route path="/Contact" element={<Contact/>}/>
+      <Route path="ModerN" index element={<Home/>}/>
+      <Route path="Projects" element={<Projects/>}/>
+      <Route path="About" element={<About/>}/>
+      <Route path="Contact" element={<Contact/>}/>
     </Routes>
     </LocomotiveScrollProvider>
     </div>

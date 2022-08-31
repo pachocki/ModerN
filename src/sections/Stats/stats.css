@@ -5,7 +5,7 @@
    align-items:center;
    height:100vh;
    overflow:hidden;
-   background-image:url(../images/wooden_autumn.jpg);
+   background-image:url(../../images/wooden_autumn.jpg);
         background-position:center;
         background-size:cover;
         position:relative;
@@ -22,10 +22,13 @@
     }
 
 .stats__numbers{
-    font-size:4em;
+    font-size:9em;
     font-weight:bold;
     color:#c65d00;
 
+}
+.stats__des{
+    font-size:2em;
 }
 
 .stats__col{

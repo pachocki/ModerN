@@ -1,12 +1,10 @@
 import React from 'react'
-import './aboutlanding.css'
-
-
-import video from '../images/video_arch.mp4'
+import './about.css'
+import video from '../../images/video_arch.mp4'
 
 function AboutLanding() {
   return (
-    <div className="about__container" data-scroll data-scroll-direction="vertical" data-scroll-speed="-0.5" data-scroll-class="appear" data-scroll-repeat="true">
+    <div className="about__container">
         <div className="top__introductions">
         <div className="introduction__col1">
         <h2>Who</h2>
@@ -27,7 +25,7 @@ function AboutLanding() {
                 </div>
               
             </div>
-            <div className="introduciton__image__col" data-scroll data-scroll-direction="vertical" data-scroll-speed="0.2" data-scroll-class="appear" data-scroll-repeat="true">
+            <div className="introduciton__image__col">
             <video autoPlay muted loop  id="video">
       <source src={video} type="video/mp4" />
     </video>

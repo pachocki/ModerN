@@ -1,10 +1,15 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Hero from "./components/Hero"
 
 
 function Contact() {
   return (
-    <Navbar/>
+    <div>
+      <Navbar/>
+      <Hero/>
+    </div>
+    
   )
 }
 
