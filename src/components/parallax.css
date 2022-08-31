@@ -1,0 +1,38 @@
+
+.parallax__container{
+    position:relative;
+}
+.parallax{
+background-image: url("../images/parallax.webp");
+min-height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin:5em 0;
+position: relative;
+z-index:2;
+}
+.parallax__text{
+    font-size:5em;
+    color:#fff;
+   position:absolute;
+   bottom:10%;
+
+}
+@media screen and (max-width:1100px){
+.parallax__text{
+    font-size:3em;
+    bottom:20%;
+}
+
+}
+@media screen and (max-width:440px){
+    .parallax__text{
+        font-size:2em;
+    }
+    .more__btn{
+        margin:2em auto;
+    }
+  
+}
