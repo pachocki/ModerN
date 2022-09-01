@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/ModerN/static/css/main.d84e7b86.css",
-    "main.js": "/ModerN/static/js/main.2f7a9344.js",
+    "main.css": "/ModerN/static/css/main.fd317b9c.css",
+    "main.js": "/ModerN/static/js/main.c8a87f19.js",
+    "static/media/video.gif": "/ModerN/static/media/video.a5df818296e5e2f60df7.gif",
     "static/media/gallery11.webp": "/ModerN/static/media/gallery11.3825c6a3da8605685b5c.webp",
     "static/media/gallery2.webp": "/ModerN/static/media/gallery2.716782c7b08ec7723c0d.webp",
     "static/media/parallax.webp": "/ModerN/static/media/parallax.fae34dc88c472a009ce1.webp",
@@ -11,7 +12,6 @@
     "static/media/architect2.webp": "/ModerN/static/media/architect2.0cacfb9ff9d879b3d696.webp",
     "static/media/gallery8.webp": "/ModerN/static/media/gallery8.457ea31827af8dabc7fa.webp",
     "static/media/gallery7.webp": "/ModerN/static/media/gallery7.38428328c145b1029e1b.webp",
-    "static/media/video_arch.mp4": "/ModerN/static/media/video_arch.8de791abd8e0cf6e4419.mp4",
     "static/media/wooden_autumn.jpg": "/ModerN/static/media/wooden_autumn.6dffb52845de87979fec.jpg",
     "static/media/gallery9.webp": "/ModerN/static/media/gallery9.63da7d78c36cfdc496e7.webp",
     "static/media/hero.webp": "/ModerN/static/media/hero.9c3eb0fb2a5f761dee9b.webp",
@@ -20,11 +20,11 @@
     "static/media/gallery5.webp": "/ModerN/static/media/gallery5.149e2c9870a8fc73b4e0.webp",
     "static/media/plan1_black.jpg": "/ModerN/static/media/plan1_black.9c03414256957fe899ac.jpg",
     "index.html": "/ModerN/index.html",
-    "main.d84e7b86.css.map": "/ModerN/static/css/main.d84e7b86.css.map",
-    "main.2f7a9344.js.map": "/ModerN/static/js/main.2f7a9344.js.map"
+    "main.fd317b9c.css.map": "/ModerN/static/css/main.fd317b9c.css.map",
+    "main.c8a87f19.js.map": "/ModerN/static/js/main.c8a87f19.js.map"
   },
   "entrypoints": [
-    "static/css/main.d84e7b86.css",
-    "static/js/main.2f7a9344.js"
+    "static/css/main.fd317b9c.css",
+    "static/js/main.c8a87f19.js"
   ]
 }
