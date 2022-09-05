@@ -1,0 +1,93 @@
+.projects__wrapper{
+ width:95%;
+ border:1px solid silver;
+ margin:7em auto 20em auto;
+ height:90vh;
+ position:relative;
+ z-index:3;
+ background:#161616;
+ display:flex;
+ align-items:center;
+
+}
+.projects__gallery{
+    position:relative;
+    width:90%;
+}
+.projects__sidebar{
+    border-right:1px solid silver;
+    height:90vh;
+    width:10%;
+    color:#fff;
+    text-align:center;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    
+}
+.projects__sidebar p{
+    padding:2em 0;
+    font-weight:bold;
+    border-bottom:1px solid silver;
+}
+.projects__sidebar p:nth-child(2){
+    border-top:1px solid silver;
+}
+.projects__sidebar span{
+    font-size:2em;
+    writing-mode: vertical-rl; 
+
+}
+
+.projects:nth-child(1n) {
+    background-image: url("../../images/gallery1.webp");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .projects:nth-child(2n) {
+    background-image: url("../../images/gallery2.webp");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .projects:nth-child(3n) {
+    background-image: url("../../images/blockhouse_oslo.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .projects:nth-child(4n) {
+    background-image: url("../../images/gallery4.webp");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .projects:nth-child(5n) {
+    background-image: url("../../images/gallery5.webp");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .projects:nth-child(6n) {
+    background-image: url("../../images/gallery7.webp");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project_nr{
+    font-size:5em;
+    color:orange;
+    position:absolute;
+    top:0em;
+    right:0;
+  }
+
+  .projects h2{
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:rgba(0, 0, 0, 0.568);
+    padding:10px;
+  }
+  

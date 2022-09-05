@@ -1,0 +1,197 @@
+.about__container{
+    display:flex;
+    flex-direction: column;
+    gap:6em;
+}
+.top__introductions{
+    display:grid;
+    grid-template-columns: 1.5fr 2fr;
+    margin:5em;
+    align-items:center;
+    height:100vh;
+
+}
+.introduction__col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+}
+
+.introduction__col1 h2{
+    -webkit-text-stroke-color: #c65d00;
+  -webkit-text-stroke-width: 0.02em;
+  -webkit-text-fill-color: transparent;
+  font-size:7em;
+  grid-column: span 2; 
+}
+.introduction__col2 p{
+    color:#fff;
+    font-size:2.6em;
+    line-height:1.6;
+}
+.bottom__introductions{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    width:100vw;
+    margin:0 auto;
+    gap:1em;
+   
+}
+.introduciton__image__col{
+    position:relative;
+}
+.introduciton__image__col img{
+    width:100%;
+    height:80%;
+}
+
+.name{
+    font-size: 2em;
+    color: white;
+    font-family: 'Playfair Display';
+    position:absolute;
+    bottom:0;
+    background: rgba(0, 0, 0, 0.4);
+    padding:10px;
+   
+}
+
+.card{
+    position:relative;
+    top:0;
+    right:0;
+    background-image:url("../../images/architect1.webp");
+    background-repeat: no-repeat;
+    width:100%;
+    height:70%;
+    background-size: contain;
+    background-position: top;
+}
+.card__two{
+    position:relative;
+    top:0;
+    right:0;
+    background-image:url("../../images/architect2.webp");
+    background-repeat: no-repeat;
+    width:100%;
+    height:70%;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+
+/*===================Media Query=========================*/
+@media screen and (max-width:1640px){
+    .card , .card__two{
+        height:50vh;
+    }
+}
+
+@media screen and (max-width:1540px){
+    .top__introductions{
+        height:70vh;
+    }
+    .introduction__col1 h2 {
+        font-size:7em;
+    }
+    .introduction__col2 p{
+        font-size:1.8em;
+    }
+
+}
+@media screen and (max-width:1220px){
+    .introduction__col1 h2 {
+        font-size:8em;
+    }
+    .introduction__col2 p{
+        font-size:1.8em;
+    }
+
+}
+@media screen and (max-width:1050px){
+    .introduction__col2 p{
+        font-size:1.5em;
+        margin: 2em 0 0 2em;
+    
+    }
+    .introduction__col1 h2 {
+        font-size:6em;
+    }
+    .bottom__introductions{
+        width:100%;
+        margin:0;
+        height:100%;
+    }
+    .top__introductions{
+        height:60vh;
+    }
+    
+}
+@media screen and (max-width:780px){
+    .top__introductions{
+        width:100%;
+        margin:0 auto;
+        
+    }
+    .introduction__col2 p{
+        margin:0 ;
+    }
+    .name{
+        display:none;
+    }
+}
+@media screen and (max-width:660px){
+    .top__introductions{
+        display:flex;
+        flex-direction:column;
+    }
+   .introduction__col1{
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+    gap: 1em;
+    margin:1em;
+   }
+   .introduction__col1 h2{
+    font-size:4em;
+   }
+   .introduction__col2 {
+    margin:1em;
+    height:100%;
+    
+   }
+   .bottom__introductions{
+    margin-top:5em;
+   }
+}
+@media screen and (max-width:470px){
+    .introduction__col1{
+        align-self:center;
+        }
+    
+    .introduction__col1 h2 {
+        font-size: 3.3em;
+    }
+    .introduction__col2 p{
+        font-size:1.2em;
+        margin:1em
+    }
+}
+
+@media screen and (max-width:370px){
+    .introduction__col1 h2{
+        color:#c65d00;
+        -webkit-text-stroke-color:none; 
+        -webkit-text-stroke-width: 0; 
+        -webkit-text-fill-color: #c65d00;
+        font-size:2.8em;
+        font-family:'Playfair Display', serif;
+    }
+    .introduction__col2 p{
+        font-size:1.1em;
+        margin:0.5em
+    }
+}

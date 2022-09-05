@@ -35,7 +35,7 @@ function Hero() {
       </div>
       <div className="hero__bottom__right" data-scroll data-scroll-direction="vertical" data-scroll-speed="-1.7" data-scroll-class="appear" data-scroll-repeat="true">
         <div className="hero_image_info">
-            <div className="info_col">
+            <div className="info_col1">
             <h2>Location:</h2>
             <h2>Stavanger</h2>
             </div>

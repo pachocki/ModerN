@@ -5,10 +5,10 @@ import { Route , Routes} from 'react-router-dom';
 import 'locomotive-scroll/dist/locomotive-scroll.css'
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 import {useRef} from 'react';
-import Home from "./Home";
-import Projects from "./Projects";
-import About from "./About";
-import Contact from "./Contact";
+import Home from "./Pages/Home/Home";
+import Projects from "./Pages/Projects/Projects";
+import About from "./Pages/About/About";
+import Contact from "./Pages/Contact/Contact";
 
 
 
