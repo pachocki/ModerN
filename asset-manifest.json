@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ModerN/static/css/main.22c0fc4d.css",
-    "main.js": "/ModerN/static/js/main.3562a23f.js",
+    "main.css": "/ModerN/static/css/main.527522a8.css",
+    "main.js": "/ModerN/static/js/main.94e9bcd0.js",
     "static/media/video.gif": "/ModerN/static/media/video.a5df818296e5e2f60df7.gif",
     "static/media/about__project.jpg": "/ModerN/static/media/about__project.eb436586865e98d9f4e1.jpg",
     "static/media/about__team.jpg": "/ModerN/static/media/about__team.1e961ace6d05c9bec75e.jpg",
@@ -9,13 +9,13 @@
     "static/media/gallery11.webp": "/ModerN/static/media/gallery11.3825c6a3da8605685b5c.webp",
     "static/media/gallery2.webp": "/ModerN/static/media/gallery2.716782c7b08ec7723c0d.webp",
     "static/media/parallax.webp": "/ModerN/static/media/parallax.fae34dc88c472a009ce1.webp",
-    "static/media/blockhouse_oslo.jpg": "/ModerN/static/media/blockhouse_oslo.1b3f5271d2ae74c5b740.jpg",
     "static/media/silver_buldings.jpg": "/ModerN/static/media/silver_buldings.0b12672cea8281f8499c.jpg",
     "static/media/gallery3.webp": "/ModerN/static/media/gallery3.4ced504ff258949423d3.webp",
     "static/media/gallery1.webp": "/ModerN/static/media/gallery1.e9a89308c4c0c6e7e169.webp",
     "static/media/architect1.webp": "/ModerN/static/media/architect1.e0133a4a01186d557ba0.webp",
     "static/media/architect2.webp": "/ModerN/static/media/architect2.0cacfb9ff9d879b3d696.webp",
     "static/media/gallery8.webp": "/ModerN/static/media/gallery8.457ea31827af8dabc7fa.webp",
+    "static/media/villa__basen.webp": "/ModerN/static/media/villa__basen.08e88dfa280c45518071.webp",
     "static/media/gallery7.webp": "/ModerN/static/media/gallery7.38428328c145b1029e1b.webp",
     "static/media/gallery4.webp": "/ModerN/static/media/gallery4.baf1a6535b584f66fffb.webp",
     "static/media/wooden_autumn.jpg": "/ModerN/static/media/wooden_autumn.6dffb52845de87979fec.jpg",
@@ -26,11 +26,11 @@
     "static/media/gallery5.webp": "/ModerN/static/media/gallery5.149e2c9870a8fc73b4e0.webp",
     "static/media/plan1_black.jpg": "/ModerN/static/media/plan1_black.9c03414256957fe899ac.jpg",
     "index.html": "/ModerN/index.html",
-    "main.22c0fc4d.css.map": "/ModerN/static/css/main.22c0fc4d.css.map",
-    "main.3562a23f.js.map": "/ModerN/static/js/main.3562a23f.js.map"
+    "main.527522a8.css.map": "/ModerN/static/css/main.527522a8.css.map",
+    "main.94e9bcd0.js.map": "/ModerN/static/js/main.94e9bcd0.js.map"
   },
   "entrypoints": [
-    "static/css/main.22c0fc4d.css",
-    "static/js/main.3562a23f.js"
+    "static/css/main.527522a8.css",
+    "static/js/main.94e9bcd0.js"
   ]
 }
