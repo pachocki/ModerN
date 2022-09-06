@@ -40,6 +40,10 @@
 .about__smart{
     max-width:1100px;
     margin:5em auto;
+    height:80vh;
+    display:flex;
+    align-items:flex-end;
+   
 
     
 }
@@ -47,7 +51,8 @@
     font-size:4.2em;
     font-weight:bold;
     color:#c65d00;
-   
+
+    
     
 }
 .about__value{
@@ -75,7 +80,104 @@
     margin-bottom:2em;
 }
 .about__value__image img{
-    width:80%;
-    height:80%;
+    width:95%;
+    
 }
 
+/*=====================================Media Queries=======================*/
+@media screen and (max-width:1200px){
+
+.about__value__desc h2{
+    font-size:2.5em;
+}
+.about__value__desc p , .about__desc p{
+    font-size:1.6em;
+}
+.about__smart{
+    width:65%;
+    
+}
+.about__smart span{
+    font-size:3.6em;
+}
+}
+
+@media screen and (max-width:910px){
+.about__value__desc h2{
+    font-size:2em;
+}
+.about__value__desc p , .about__desc p{
+    font-size:1.2em;
+}
+.about__smart span{
+    font-size:3em;
+}
+.about__smart{
+    height:100%;
+    width:80%;
+}
+.about__value__image img{
+    width:100%;
+}
+}
+@media screen and (max-width:700px){
+    .about__desc{
+        width:98%;
+    }
+    .about__value__desc p , .about__desc p{
+        font-size:1em;
+    }
+    .about__value{
+        gap:10px;
+    }
+    .about__desc h2{
+        font-size:3em;
+    }
+    .about__value__desc h2{
+        font-size:1.6em;
+    }
+
+    .about__smart span{
+        font-size:2.5em;
+    }
+}
+@media screen and (max-width:500px){
+    .about__value__desc h2 {
+        font-size: 2em;
+        line-height: 1.3;
+        margin-bottom:1em;
+    }
+    .about__value{
+        display:flex;
+        flex-direction: column;
+        width:90%;
+        gap:30px;
+    }
+    .about__smart{
+        width: 98%;
+        margin:0 auto;
+    }
+    .about__smart span {
+        font-size: 2.2em;
+        height: 88%;
+
+}
+.about__value__desc p, .about__desc p{
+    font-size:1.2em;
+}
+}
+
+@media screen and (max-width:400px){
+    .about__value__desc h2{
+        font-size:1.6em;
+    }
+    .about__value__desc p, .about__desc p {
+        font-size:1em;
+    }
+.about__desc{
+width:98%;
+}
+.about__smart span {
+    font-size: 1.9em;
+}
+}

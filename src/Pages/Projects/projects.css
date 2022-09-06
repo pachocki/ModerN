@@ -29,31 +29,33 @@
     padding:2em 0;
     font-weight:bold;
     border-bottom:1px solid silver;
-}
-.projects__sidebar p:nth-child(2){
     border-top:1px solid silver;
 }
+
 .projects__sidebar span{
-    font-size:2em;
+    font-size:3em;
     writing-mode: vertical-rl; 
+    transform:rotate(180deg);
+    padding:50px;
+    color:silver;
 
 }
 
 .projects:nth-child(1n) {
-    background-image: url("../../images/gallery1.webp");
-    background-position: bottom;
+    background-image: url("../../images/villa__basen.webp");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .projects:nth-child(2n) {
-    background-image: url("../../images/gallery2.webp");
-    background-position: bottom;
+    background-image: url("../../images/gallery3.webp");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .projects:nth-child(3n) {
-    background-image: url("../../images/blockhouse_oslo.jpg");
-    background-position: bottom;
+    background-image: url("../../images/gallery11.webp");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -65,13 +67,13 @@
   }
   .projects:nth-child(5n) {
     background-image: url("../../images/gallery5.webp");
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .projects:nth-child(6n) {
     background-image: url("../../images/gallery7.webp");
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -90,4 +92,45 @@
     background:rgba(0, 0, 0, 0.568);
     padding:10px;
   }
-  
+  #project__show{
+    width:90%;
+    height:80vh;
+  }
+
+  /*=====================================Media Queries=======================*/
+  @media screen and (max-width:1200px){
+    .projects__sidebar span{
+      padding:20px;
+    }
+  }
+  @media screen and (max-width:900px){
+    .projects__sidebar span{
+      font-size:2em;
+    }
+    .projects__sidebar p{
+      font-size:10px;
+    }
+  }
+  @media screen and (max-width:520px){
+    .projects__sidebar{
+      display:none;
+    }
+    #project__show{
+      display:flex;
+      align-items:center;
+      width:95vw;
+      height:80vh;
+    }
+    .project_nr{
+      font-size:4em;
+    }
+    .projects h2{
+      font-size:1em;
+    }
+
+  }
+  @media screen and (max-width:400px){
+    .projects h2{
+      font-size:0.8em;
+    }
+  }

@@ -15,10 +15,11 @@ function Projects() {
     <main className="projects__wrapper">
       <div className="projects__sidebar">
         <p>ModerN</p>
-        <p>Projects</p>
+        <span>Projects</span>
+        <p>Architects</p>
       </div>
       <div className="projects__gallery">
-      <Swiper style={{ width: '90%', height: '80vh' }} 
+      <Swiper id="project__show"  
         autoplay={{
         delay: 8500,
         disableOnInteraction: false,

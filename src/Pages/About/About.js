@@ -22,7 +22,7 @@ function About() {
        <p>With over 300 architects and designers in whole Norway , our work encompasses projects like the museum , church , footbal stadium , private houses
         institutional and educational clients .</p>
         <div className="about__value">
-      <div className="about__value__image">
+      <div className="about__value__image" data-scroll data-scroll-direction="vertical" data-scroll-speed="2" data-scroll-class="appear" data-scroll-repeat="true">
         <img src={image1} alt="process" />
       </div>
       <div className="about__value__desc">
@@ -33,7 +33,7 @@ function About() {
       </div>
     </div>
     <div className="about__value">
-      <div className="about__value__image">
+      <div className="about__value__image" data-scroll data-scroll-direction="vertical" data-scroll-speed="-1" data-scroll-class="appear" data-scroll-repeat="true">
         <img src={image2} alt="process" />
       </div>
       <div className="about__value__desc">
@@ -44,7 +44,7 @@ function About() {
       </div>
     </div>
     </div>
-    <div className="about__smart">
+    <div className="about__smart" data-scroll data-scroll-direction="vertical" data-scroll-speed="2" data-scroll-class="appear" data-scroll-repeat="true">
           <span>
           We look for solutions that can have an impact in finding new opportunities for people . That can move the
           needle in some way and contribute to society and culture.
