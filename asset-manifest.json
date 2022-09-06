@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ModerN/static/css/main.527522a8.css",
-    "main.js": "/ModerN/static/js/main.94e9bcd0.js",
+    "main.css": "/ModerN/static/css/main.73fb4dbd.css",
+    "main.js": "/ModerN/static/js/main.7b782121.js",
     "static/media/video.gif": "/ModerN/static/media/video.a5df818296e5e2f60df7.gif",
     "static/media/about__project.jpg": "/ModerN/static/media/about__project.eb436586865e98d9f4e1.jpg",
     "static/media/about__team.jpg": "/ModerN/static/media/about__team.1e961ace6d05c9bec75e.jpg",
@@ -26,11 +26,11 @@
     "static/media/gallery5.webp": "/ModerN/static/media/gallery5.149e2c9870a8fc73b4e0.webp",
     "static/media/plan1_black.jpg": "/ModerN/static/media/plan1_black.9c03414256957fe899ac.jpg",
     "index.html": "/ModerN/index.html",
-    "main.527522a8.css.map": "/ModerN/static/css/main.527522a8.css.map",
-    "main.94e9bcd0.js.map": "/ModerN/static/js/main.94e9bcd0.js.map"
+    "main.73fb4dbd.css.map": "/ModerN/static/css/main.73fb4dbd.css.map",
+    "main.7b782121.js.map": "/ModerN/static/js/main.7b782121.js.map"
   },
   "entrypoints": [
-    "static/css/main.527522a8.css",
-    "static/js/main.94e9bcd0.js"
+    "static/css/main.73fb4dbd.css",
+    "static/js/main.7b782121.js"
   ]
 }
