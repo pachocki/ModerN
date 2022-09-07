@@ -1,6 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation,Autoplay } from "swiper";
+import {Link} from 'react-router-dom'
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -13,6 +14,7 @@ import './projectssection.css'
 
 
 function ProjectLanding() {
+  const n = 9;
   return (
    
     <div className="projects__container">
@@ -22,7 +24,9 @@ function ProjectLanding() {
             are individual,inspiring and enhancing the lifestyle of users. </p>
       <br></br>
       <p>Here you will find some of ours projects.</p>
+      <Link to="/projects">
       <button className="more__btn"><span className="text">Check More</span></button>
+      </Link>
       </div>
       <div className="projects__col__right">
       <Swiper
@@ -40,15 +44,8 @@ function ProjectLanding() {
         modules={[Pagination, Navigation,Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide className="project__landing"></SwiperSlide>
-        <SwiperSlide className="project__landing"></SwiperSlide>
-        <SwiperSlide className="project__landing"></SwiperSlide>
-        <SwiperSlide className="project__landing"></SwiperSlide>
-        <SwiperSlide className="project__landing"></SwiperSlide>
-        <SwiperSlide className="project__landing"></SwiperSlide>
-        <SwiperSlide className="project__landing"></SwiperSlide>
-        <SwiperSlide className="project__landing"></SwiperSlide>
-        <SwiperSlide className="project__landing"></SwiperSlide>
+        {[...Array(n)].map((e, i) =><SwiperSlide key={i} className="project__landing"></SwiperSlide>)}
+
       </Swiper>
     
       </div>

@@ -8,6 +8,7 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import './projects.css'
 
+
 function Projects() {
   return (
     <div>

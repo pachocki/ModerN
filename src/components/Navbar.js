@@ -17,9 +17,9 @@ function Navbar() {
             <span>ModerN</span>
         </div></Link>
         <ul className={click?"nav__menu open" : "nav__menu"}>
+        <li className="nav__item"><Link  className="nav__link" to="/ModerN">Home</Link></li>
             <li className="nav__item"><Link  className="nav__link" to="/Projects">Projects</Link></li>
             <li className="nav__item"><Link  className="nav__link" to="/About">About</Link></li>
-            <li className="nav__item"><Link  className="nav__link" to="/About">Services</Link></li>
             <li className="nav__item"><Link  className="nav__link " to="/Contact">Contact</Link></li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
