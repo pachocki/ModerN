@@ -38,3 +38,61 @@
 .contact__map{
     margin-bottom:10em;
 }
+@media screen and (max-width:1080px){
+    .contact__title{
+        font-size:4em;
+    }
+    .contact__info h2{
+        font-size:2.5em;
+    }
+    .contact__container{
+        align-items:center;
+        gap:1em;
+    }
+
+}
+@media screen and (max-width:680px){
+    .contact__title{
+        font-size:3em;
+    }
+    .contact__info h2{
+        font-size:1.8em;
+    }
+    .contact__parallax{
+        height:40vh;
+    }
+    iframe{
+        height:40vh;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .contact__container{
+        width:100%;
+        margin:5em 1em;
+    }
+.contact__title{
+    font-size:2em;
+}
+.contact__info h2{
+    font-size:1.2em;
+}
+}
+@media screen and (max-width:350px){
+    .contact__container{
+        display:flex;
+        justify-content:center;
+    }
+    .office__image{
+        display:none;
+    }
+    .contact__container{
+        width:100%;
+        margin:5em auto;
+    }
+    
+    iframe{
+        height:30vh;
+    }
+}
