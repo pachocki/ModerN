@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ModerN/static/css/main.3e54e62d.css",
+    "main.css": "/ModerN/static/css/main.d964e6a7.css",
     "main.js": "/ModerN/static/js/main.c6fb5ff6.js",
     "static/media/video.gif": "/ModerN/static/media/video.a5df818296e5e2f60df7.gif",
     "static/media/about__project.jpg": "/ModerN/static/media/about__project.eb436586865e98d9f4e1.jpg",
@@ -28,11 +28,11 @@
     "static/media/gallery5.webp": "/ModerN/static/media/gallery5.149e2c9870a8fc73b4e0.webp",
     "static/media/plan1_black.jpg": "/ModerN/static/media/plan1_black.9c03414256957fe899ac.jpg",
     "index.html": "/ModerN/index.html",
-    "main.3e54e62d.css.map": "/ModerN/static/css/main.3e54e62d.css.map",
+    "main.d964e6a7.css.map": "/ModerN/static/css/main.d964e6a7.css.map",
     "main.c6fb5ff6.js.map": "/ModerN/static/js/main.c6fb5ff6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e54e62d.css",
+    "static/css/main.d964e6a7.css",
     "static/js/main.c6fb5ff6.js"
   ]
 }
