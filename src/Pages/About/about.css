@@ -20,7 +20,7 @@
     
 }
 .about__parallax{
-    background-image: url("../../images/about__team.jpg");
+    background-image: url("../../images/about__team.webp");
     height: 80vh;
     background-attachment: fixed;
     background-position: center;
@@ -29,7 +29,7 @@
     margin-top:2em;
 }
 .about__parallax2{
-    background-image: url("../../images/natur_window.jpg");
+    background-image: url("../../images/natur_window.webp");
     height: 500px;
     background-attachment: fixed;
     background-position: center;

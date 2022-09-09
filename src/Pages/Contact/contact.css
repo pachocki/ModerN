@@ -1,5 +1,5 @@
 .contact__parallax{
-    background-image: url("../../images/office__building.jpg");
+    background-image: url("../../images/office__building.webp");
     height: 80vh;
     background-attachment: fixed;
     background-position: center;
@@ -26,7 +26,7 @@
     margin-top:20px;
 }
 .office__image{
-    background-image: url("../../images/office__inside.jpg");
+    background-image: url("../../images/office__inside.webp");
     height: 80vh;
     background-attachment: fixed;
     background-position: center;
